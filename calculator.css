@@ -1,0 +1,47 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    color: #140F2D;
+    
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    color: #A63A50;
+}
+label {
+    display: flex;
+    width: 130px;
+    margin-bottom: 10px;
+}
+input[type="number"] {
+    width: 400px;
+    padding: 10px;
+    border: 2px solid #161515;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    display: grid;
+}
+input[type="button"] {
+    background-color: #82038d;
+    color: #EFF7CF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+input[type="button"]:hover {
+    background-color: #0b4763;
+}
+.result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #140F2D;
+    /*I have tried styling this part and lets just say wueeh*/
+}
