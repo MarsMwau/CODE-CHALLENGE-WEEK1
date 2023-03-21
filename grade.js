@@ -26,5 +26,6 @@ function generateGrade() {
     }
   
     // Display message to user
-    display("Hello " + name + ", your grade is a " + myGrade); //The user will be prompted their grade
+    const result = "Hello " + name + ", your grade is a " + myGrade;
+    document.getElementById("result").innerHTML = result; //The user will be prompted their grade
   }

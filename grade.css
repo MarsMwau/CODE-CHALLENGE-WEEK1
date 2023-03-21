@@ -34,3 +34,10 @@ input[type="button"]:hover {
     background-color: #055c85;
     color: black;
 }
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #B3B3F1;
+}
